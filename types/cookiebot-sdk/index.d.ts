@@ -39,3 +39,8 @@ interface WindowEventMap {
     CookiebotOnDialogDisplay: Event;
     CookiebotOnTagsExecuted: Event;
 }
+
+
+interface Window {
+  Cookiebot?: typeof Cookiebot;
+}
